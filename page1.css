@@ -1,0 +1,145 @@
+body {
+    background-color: #ffffff;
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"100,
+        "YTLC"500;
+
+
+    #main_header {
+        font-size: 1.2rem;
+        border: 1px solid whitesmoke;
+        /* margin: 5px 10px; */
+
+        .header_first_div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            background-color: #f1e98f;
+            padding: 5px 10px;
+            gap: 10px;
+
+            .first_div {
+                background: #ffffff url("img_tree.png") no-repeat right top;
+                .first_p {
+                    background-color: rgb(177, 223, 233);
+                    padding: 10px;
+                     border: .5px solid rgb(192, 187, 187);
+                    border-radius: 15px;
+                   
+                }
+    
+                .second_p {
+                    background-color: #b5facc;
+                    padding: 10px;
+                     border: .5px solid rgb(192, 187, 187);
+                    border-radius: 15px;
+                }
+
+            }
+            .second_div {
+                .third_p {
+                    background-color: #e278ed;
+                    padding: 10px;
+                     border: .5px solid rgb(192, 187, 187);
+                    border-radius: 15px;
+                }
+    
+                .fourth_p {
+                    background-color: #4b2ca9;
+                    padding: 10px;
+                     border: .5px solid rgb(192, 187, 187);
+                    border-radius: 15px;
+                }
+
+            }
+
+        }
+    }
+
+    #journey_section {
+        font-size: 1.2rem;
+        color: darkgreen;
+        padding-left: 25px;
+        padding-right: 30px;
+        border: 3px solid black;
+        margin: 20px;
+
+        p {
+            font-weight: lighter;
+            color: black;
+            padding-left: 25px;
+            padding-right: 30px;
+
+        }
+    }
+
+    .development_section {
+        font-size: 1.2rem;
+        color: darkgreen;
+        padding-left: 25px;
+        padding-right: 30px;
+        border: 3px solid darkgreen;
+        margin: 20px;
+
+        ul {
+            color: black;
+        }
+
+        ol {
+            color: black;
+        }
+    }
+
+    .goal_section {
+        color: green;
+        font-size: 1.1rem;
+        padding-left: 25px;
+        padding-right: 30px;
+        border: 3px solid blueviolet;
+        margin: 20px;
+        border-radius: 15px;
+
+        p {
+            color: black;
+            padding-left: 25px;
+            padding-right: 30px;
+
+
+        }
+    }
+
+    .contact_form {
+        color: rgb(230, 6, 6);
+        padding-left: 25px;
+        padding-right: 30px;
+        border: 3px solid purple;
+        border-radius: 15px;
+        margin: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
